@@ -1,0 +1,22 @@
+{
+  "name": "libqi",
+  "version": "0.0.1",
+  "description": "Library for communicating with Pepper over a websocket.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderCoded/libqi-js.git"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/CoderCoded/libqi-js/issues"
+  },
+  "homepage": "https://github.com/CoderCoded/libqi-js#readme",
+  "dependencies": {
+    "socket.io-client": "0.9.11"
+  }
+}
