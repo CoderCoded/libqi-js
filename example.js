@@ -1,4 +1,4 @@
-var QiSession = require('./qi')
+var QiSession = require('./node')
 
 var session = QiSession({
   debug: true,

@@ -1,6 +1,6 @@
 {
   "name": "libqi",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Library for communicating with Pepper over a websocket.",
   "main": "index.js",
   "scripts": {

@@ -1,3 +1,4 @@
-var qi = require('./qi')
+var io = require('socket.io-client/dist/socket.io')
+var qi = require('./qi')(io)
 
 module.exports = qi
