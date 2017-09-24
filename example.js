@@ -1,9 +1,10 @@
-var QiSession = require('./node')
+var QiSession = require('./index')
 
 var session = QiSession({
   debug: true,
+  reconnect: false,
   host: '192.168.10.3', // Pepper's IP
-  onConnect: function () {
+  onConnect: function (/* session is also returned here */) {
     console.log('Connected...')
     session
       .service('ALTextToSpeech')
